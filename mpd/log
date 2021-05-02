@@ -1,0 +1,142 @@
+Mar 22 08:58 : update: added /itzhak perlman_prokofiev violin concerto no. 1.m4a
+Mar 22 08:58 : update: added /itzhak perlman_prokofiev violin concerto no. 1.m4a
+Mar 22 09:18 : update: added songs/perlman_prokofiev.mp3
+Mar 22 09:23 : player: played "songs/perlman_prokofiev.mp3"
+Mar 22 10:21 : update: removing songs/perlman_prokofiev.mp3
+Mar 22 13:22 : update: removing itzhak perlman_prokofiev violin concerto no. 1.m4a
+Mar 22 13:22 : update: added /perlman_prokofiev.m4a
+Mar 22 13:22 : update: added /perlman_prokofiev.mp3
+Mar 22 13:28 : player: played "itzhak perlman_prokofiev violin concerto no. 1.m4a"
+Mar 22 13:28 : update: removing perlman_prokofiev.m4a
+Mar 22 13:28 : update: removing perlman_prokofiev.mp3
+Mar 22 13:30 : update: added /perlman_prokofiev.m4a
+Mar 22 13:30 : update: added /perlman_prokofiev.mp3
+Mar 22 14:25 : player: played "perlman_prokofiev.m4a"
+Mar 22 19:32 : player: played "perlman_prokofiev.m4a"
+Mar 24 08:42 : update: added /Alexander Borodin - String Quartet No. 2.m4a
+Mar 24 08:42 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 24 08:42 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 24 08:42 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 24 08:57 : update: updating /Alexander Borodin - String Quartet No. 2.m4a
+Mar 24 08:57 : update: updating /perlman_prokofiev.m4a
+Mar 24 08:57 : update: updating /perlman_prokofiev.mp3
+Mar 24 08:58 : update: updating /Alexander Borodin - String Quartet No. 2.m4a
+Mar 24 08:58 : update: updating /perlman_prokofiev.m4a
+Mar 24 08:58 : update: updating /perlman_prokofiev.mp3
+Mar 24 08:59 : update: updating /Alexander Borodin - String Quartet No. 2.m4a
+Mar 24 08:59 : update: updating /perlman_prokofiev.m4a
+Mar 24 08:59 : update: updating /perlman_prokofiev.mp3
+Mar 24 09:00 : update: removing perlman_prokofiev.mp3
+Mar 24 09:30 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 24 09:30 : player: played "Alexander Borodin - String Quartet No. 2.m4a"
+Mar 24 09:31 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 24 09:43 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 24 12:30 : player: played "Alexander Borodin - String Quartet No. 2.m4a"
+Mar 24 16:10 : update: added /Sibelius Violin Concerto - Maxim Vengerov, Daniel Barenboim, Chicago S.O. (CSO).m4a
+Mar 24 16:12 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 24 16:13 : exception: No such directory
+Mar 24 16:13 : exception: Failed to open '/home/antz/.config/mpd/playlists/Sibelius Violin Concerto No. 1.m3u': No such file or directory
+Mar 24 16:13 : exception: No such playlist
+Mar 24 16:13 : exception: No such directory
+Mar 24 16:13 : exception: Failed to open '/home/antz/.config/mpd/playlists/Sibelius Violin Concerto No. 1.m3u': No such file or directory
+Mar 24 16:13 : exception: No such playlist
+Mar 24 16:14 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 24 16:14 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 24 16:14 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 24 16:14 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 24 16:15 : player: played "Alexander Borodin - String Quartet No. 2.m4a"
+Mar 24 16:15 : update: added /Horowitz Rachmaninoff 3rd Concerto Mehta NYPO 1978.m4a
+Mar 24 16:16 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 24 16:18 : update: updating /Alexander Borodin - String Quartet No. 2.m4a
+Mar 24 16:18 : update: updating /Horowitz Rachmaninoff 3rd Concerto Mehta NYPO 1978.m4a
+Mar 24 16:18 : update: updating /Sibelius Violin Concerto - Maxim Vengerov, Daniel Barenboim, Chicago S.O. (CSO).m4a
+Mar 24 16:18 : update: updating /perlman_prokofiev.m4a
+Mar 24 19:37 : player: played "Alexander Borodin - String Quartet No. 2.m4a"
+Mar 24 22:29 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 25 14:50 : player: played "Alexander Borodin - String Quartet No. 2.m4a"
+Mar 26 18:42 : update: added /Arthur Rubinstein - Grieg - Piano Concerto in A minor, Op 16.m4a
+Mar 26 18:45 : update: updating /Alexander Borodin - String Quartet No. 2.m4a
+Mar 26 18:45 : update: updating /Horowitz Rachmaninoff 3rd Concerto Mehta NYPO 1978.m4a
+Mar 26 18:45 : update: updating /Arthur Rubinstein - Grieg - Piano Concerto in A minor, Op 16.m4a
+Mar 26 18:45 : update: updating /Sibelius Violin Concerto - Maxim Vengerov, Daniel Barenboim, Chicago S.O. (CSO).m4a
+Mar 26 18:45 : update: updating /perlman_prokofiev.m4a
+Mar 26 18:45 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 26 18:45 : player: played "Alexander Borodin - String Quartet No. 2.m4a"
+Mar 26 18:45 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 27 10:41 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 27 11:33 : player: played "Alexander Borodin - String Quartet No. 2.m4a"
+Mar 28 20:20 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 29 17:39 : player: played "perlman_prokofiev.m4a"
+Mar 30 22:09 : update: added /Solo Violin Sonata No. 1 in G Minor, BWV 1001 - IV. Presto.m4a
+Mar 30 22:10 : update: updating /Alexander Borodin - String Quartet No. 2.m4a
+Mar 30 22:10 : update: updating /Horowitz Rachmaninoff 3rd Concerto Mehta NYPO 1978.m4a
+Mar 30 22:10 : update: updating /Solo Violin Sonata No. 1 in G Minor, BWV 1001 - IV. Presto.m4a
+Mar 30 22:10 : update: updating /Arthur Rubinstein - Grieg - Piano Concerto in A minor, Op 16.m4a
+Mar 30 22:10 : update: updating /Sibelius Violin Concerto - Maxim Vengerov, Daniel Barenboim, Chicago S.O. (CSO).m4a
+Mar 30 22:10 : update: updating /perlman_prokofiev.m4a
+Mar 30 22:10 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 30 22:11 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 30 22:11 : player: played "Alexander Borodin - String Quartet No. 2.m4a"
+Mar 30 22:11 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 30 22:12 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 30 22:12 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 30 22:14 : update: updating /Alexander Borodin - String Quartet No. 2.m4a
+Mar 30 22:14 : update: updating /Horowitz Rachmaninoff 3rd Concerto Mehta NYPO 1978.m4a
+Mar 30 22:14 : update: updating /Solo Violin Sonata No. 1 in G Minor, BWV 1001 - IV. Presto.m4a
+Mar 30 22:14 : update: updating /Arthur Rubinstein - Grieg - Piano Concerto in A minor, Op 16.m4a
+Mar 30 22:14 : update: updating /Sibelius Violin Concerto - Maxim Vengerov, Daniel Barenboim, Chicago S.O. (CSO).m4a
+Mar 30 22:14 : update: updating /perlman_prokofiev.m4a
+Mar 30 22:14 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 30 22:14 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 30 22:14 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 30 22:42 : player: played "Solo Violin Sonata No. 1 in G Minor, BWV 1001 - IV. Presto.m4a"
+Mar 30 22:42 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Mar 30 23:20 : player: played "perlman_prokofiev.m4a"
+Apr 01 21:53 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Apr 01 21:53 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Apr 02 00:51 : player: played "perlman_prokofiev.m4a"
+Apr 04 22:03 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Apr 04 22:03 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Apr 05 00:15 : player: played "Solo Violin Sonata No. 1 in G Minor, BWV 1001 - IV. Presto.m4a"
+Apr 10 01:05 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Apr 10 01:05 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Apr 11 14:45 : player: played "Alexander Borodin - String Quartet No. 2.m4a"
+Apr 11 21:30 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Apr 11 21:30 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Apr 12 21:04 : player: played "Solo Violin Sonata No. 1 in G Minor, BWV 1001 - IV. Presto.m4a"
+Apr 15 22:23 : update: added /David Oistrakh, Debussy - Clair de lune.m4a
+Apr 15 22:24 : update: updating /Alexander Borodin - String Quartet No. 2.m4a
+Apr 15 22:24 : update: updating /David Oistrakh, Debussy - Clair de lune.m4a
+Apr 15 22:24 : update: updating /Horowitz Rachmaninoff 3rd Concerto Mehta NYPO 1978.m4a
+Apr 15 22:24 : update: updating /Solo Violin Sonata No. 1 in G Minor, BWV 1001 - IV. Presto.m4a
+Apr 15 22:24 : update: updating /Arthur Rubinstein - Grieg - Piano Concerto in A minor, Op 16.m4a
+Apr 15 22:24 : update: updating /Sibelius Violin Concerto - Maxim Vengerov, Daniel Barenboim, Chicago S.O. (CSO).m4a
+Apr 15 22:24 : update: updating /perlman_prokofiev.m4a
+Apr 15 22:24 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Apr 15 22:24 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Apr 17 00:19 : player: played "David Oistrakh, Debussy - Clair de lune.m4a"
+Apr 20 21:10 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Apr 21 22:34 : player: played "perlman_prokofiev.m4a"
+Apr 22 08:44 : update: added /Evgeny Kissin - Mussorgski - Pictures at an Exhibition.m4a
+Apr 22 08:44 : update: updating /Alexander Borodin - String Quartet No. 2.m4a
+Apr 22 08:44 : update: updating /David Oistrakh, Debussy - Clair de lune.m4a
+Apr 22 08:44 : update: updating /Horowitz Rachmaninoff 3rd Concerto Mehta NYPO 1978.m4a
+Apr 22 08:44 : update: updating /Solo Violin Sonata No. 1 in G Minor, BWV 1001 - IV. Presto.m4a
+Apr 22 08:44 : update: updating /Arthur Rubinstein - Grieg - Piano Concerto in A minor, Op 16.m4a
+Apr 22 08:44 : update: updating /Sibelius Violin Concerto - Maxim Vengerov, Daniel Barenboim, Chicago S.O. (CSO).m4a
+Apr 22 08:44 : update: updating /Evgeny Kissin - Mussorgski - Pictures at an Exhibition.m4a
+Apr 22 08:44 : update: updating /perlman_prokofiev.m4a
+Apr 22 08:45 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Apr 26 00:30 : player: played "Alexander Borodin - String Quartet No. 2.m4a"
+Apr 27 09:19 : update: added /Bach - Bist du bei mir BWV 508 - Daniels _ Netherlands Bach Society.m4a
+Apr 27 09:19 : update: added /Bach - Cello Suite no. 3 in C major BWV 1009 - Wink _ Netherlands Bach Society.m4a
+Apr 27 09:22 : update: updating /Alexander Borodin - String Quartet No. 2.m4a
+Apr 27 09:22 : update: updating /David Oistrakh, Debussy - Clair de lune.m4a
+Apr 27 09:22 : update: updating /Bach - Bist du bei mir BWV 508 - Daniels _ Netherlands Bach Society.m4a
+Apr 27 09:22 : update: updating /Horowitz Rachmaninoff 3rd Concerto Mehta NYPO 1978.m4a
+Apr 27 09:22 : update: updating /Bach - Cello Suite no. 3 in C major BWV 1009 - Wink _ Netherlands Bach Society.m4a
+Apr 27 09:22 : update: updating /Solo Violin Sonata No. 1 in G Minor, BWV 1001 - IV. Presto.m4a
+Apr 27 09:22 : update: updating /Arthur Rubinstein - Grieg - Piano Concerto in A minor, Op 16.m4a
+Apr 27 09:22 : update: updating /Sibelius Violin Concerto - Maxim Vengerov, Daniel Barenboim, Chicago S.O. (CSO).m4a
+Apr 27 09:22 : update: updating /Evgeny Kissin - Mussorgski - Pictures at an Exhibition.m4a
+Apr 27 09:22 : update: updating /perlman_prokofiev.m4a
