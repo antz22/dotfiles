@@ -33,4 +33,4 @@ else
     done
 fi
 xml+="</box>"
-eww update buttonxml="$xml"
+./system/eww/eww update buttonxml="$xml"
