@@ -1,0 +1,12 @@
+#!/bin/sh
+
+icon="^d^ ^d^"
+
+# percentage
+#mem=$(free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g)
+mem=$(free | grep Mem | awk '{ printf("%.2f%\n", $3/$2 * 100.0) }')
+
+# gigs
+# mem=$(free --mebi | sed -n '2{p;q}' | awk '{printf ("%2.2fG/%2.2fG\n", ( $3 / 1024), ($2 / 1024))}')
+
+echo "$icon $mem"

@@ -1,0 +1,14 @@
+#!/bin/sh
+
+icon="^c#55cdfc^ ^d^"
+
+# percentage free
+# disk=$(df -h | awk '{if ($1 == "/dev/sda5") print $5}')
+
+# gigs free / total
+# disk=$(printf "%s %s\n" "$(df -h /home/antz | awk ' /[0-9]/ {print $4 "/" $2}')")
+
+# gigs free
+disk=$(printf "%s %s\n" "$(df -h /home/antz | awk ' /[0-9]/ {print $4}')")
+
+echo "$icon $disk"
