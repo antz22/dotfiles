@@ -1,6 +1,6 @@
 #!/bin/sh
 
-icon="^d^ ^d^"
+icon="^c#d7ba7d^ ^d^"
 
 time="date '+%I:%M %p'"
 

@@ -2,7 +2,7 @@
 
 #clock=$(date '+%I')
 	#//{"  ", "date '+%a, %B %d %I:%M%p'",					5,		0},
-icon="^c#ddff12^ ^d^"
+icon="^c#ff9e64^ ^d^"
 
 #case "$clock" in
 	#"00") icon="🕛" ;;

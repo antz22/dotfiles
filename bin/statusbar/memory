@@ -1,6 +1,6 @@
 #!/bin/sh
 
-icon="^d^ ^d^"
+icon="^c#FF2281^ ^d^"
 
 # percentage
 #mem=$(free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g)
