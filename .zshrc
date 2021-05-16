@@ -3,7 +3,10 @@
 #################
 
 
-### CHRIS CONFIG (TESTING)
+### Starship
+#eval "$(starship init zsh)"
+
+### CHRIS CONFIG 
 
 ## autoload vcs and colors
 autoload -Uz vcs_info
@@ -37,8 +40,29 @@ zstyle ':vcs_info:*' check-for-changes true
 zstyle ':vcs_info:git:*' formats " %{$fg[blue]%}(%{$fg[red]%}%m%u%c%{$fg[yellow]%}%{$fg[magenta]%} %b%{$fg[blue]%})"
 
 # format our main prompt for hostname current folder, and permissions.
-PROMPT="%B%{$fg[red]%}[%{$fg[cyan]%}%n%{$fg[blue]%}@%{$fg[cyan]%}%m%{$fg[red]%}] %(?:%{$fg_bold[green]%}➜  :%{$fg_bold[red]%}➜  )%{$fg[cyan]%}%c%{$reset_color%}"
-# PROMPT="%{$fg[green]%}%n@%m %~ %{$reset_color%}%#> "
+
+
+PROMPT="%B %{$fg_bold[cyan]%}%c %{$fg[magenta]%}❯%{$fg[blue]%}❯%(?:%{$fg_bold[green]%}❯:%{$fg_bold[red]%}❯)%{$reset_color%}"
+# ~ ❯❯❯
+
+#PROMPT="%B%{$fg[red]%}[%{$fg[cyan]%}%c%{$fg[red]%}]%{$fg[white]%}─%{$fg[magenta]%}antz %(?:%{$fg_bold[green]%}$:%{$fg_bold[red]%}λ)%{$reset_color%}"
+# [~]─antz $ 
+
+#PROMPT="%B%{$fg[red]%}[%{$fg[cyan]%}%c%{$fg[red]%}] %(?:%{$fg_bold[green]%}$:%{$fg_bold[red]%}λ)%{$reset_color%}"
+# [~] $
+
+#PROMPT="%B%{$fg[red]%}[%(?:%{$fg_bold[cyan]%}%c:%{$fg_bold[yellow]%}%c)%{$fg[red]%}]%{$reset_color%}"
+# [~]
+
+#PROMPT="%B%{$fg[red]%}[%{$fg[cyan]%}%n%{$fg[blue]%}@%{$fg[cyan]%}%m%{$fg[red]%}] %(?:%{$fg_bold[green]%}➜  :%{$fg_bold[red]%}➜  )%{$fg[cyan]%}%c%{$reset_color%}"
+# [antz@m] ➜ ~
+
+#PROMPT="%B%{$fg[red]%}[%{$fg[cyan]%}%n%{$fg[blue]%}%{$fg[red]%}] %(?:%{$fg_bold[green]%}➜  :%{$fg_bold[red]%}➜  )%{$fg[cyan]%}%c%{$reset_color%}"
+# [antz] ➜ ~
+
+#PROMPT="%B%(?:%{$fg_bold[green]%}➜  :%{$fg_bold[red]%}➜  )%{$fg[cyan]%}%c%{$reset_color%}"
+# ➜ ~
+
 PROMPT+="\$vcs_info_msg_0_ "
 
 
@@ -52,10 +76,12 @@ alias conf='nvim ~/.config/nvim'
 alias conff='cd ~/.config/nvim'
 
 alias i3conf='nvim ~/.config/i3/config'
-alias dwmconf='cd suckless/dwm && nvim ~/suckless/dwm/config.def.h'
-alias stconf='nvim ~/suckless/st/config.h'
+alias dwmconf='cd ~/suckless/dwm && nvim ~/suckless/dwm/config.def.h'
+alias stconf='cd ~/suckless/st && nvim ~/suckless/st/config.def.h'
 alias dmenuconf='nvim ~/suckless/dmenu/config.h'
-alias blocksconf='nvim ~/suckless/dwmblocks/config.h'
+alias blocksconf='cd ~/suckless/dwmblocks && nvim ~/suckless/dwmblocks/blocks.def.h'
+alias zshrc='nvim ~/.zshrc'
+alias ls='ls --color=auto'
 
 alias mitpy='nvim ~/python/6_0001'
 alias dunstrc='nvim ~/.config/dunst/dunstrc'
@@ -64,7 +90,7 @@ alias courses='nvim ~/Documents/vimwiki/Courses.wiki'
 alias notes='nvim ~/Documents/vimwiki/Notes.wiki'
 alias vwiki='nvim ~/Documents/vimwiki/index.wiki'
 alias vw='nvim ~/Documents/vimwiki/index.wiki'
-alias github='nvim system/github.txt'
+alias github='nvim ~/system/github.txt'
 alias pkgs='sudo pacman -Qe > .pacman.list'
 alias clock='tty-clock -t -c -C 4'
 
@@ -78,6 +104,7 @@ alias gcm='git commit -m'
 alias gp='git pull'
 alias gP='git push'
 alias grv='git remote -v'
+alias gacm='git add --all && git commit -m'
 
 alias smi='make && sudo make clean install'
 alias rsmi='rm -rf config.h && make && sudo make clean install'
@@ -85,6 +112,17 @@ alias bsmi='rm -rf blocks.h && make && sudo make clean install'
 alias dwmb='dwmblocks'
 alias rmo='remote add origin'
 alias gpom='git pull origin master'
+alias gPom='git push origin master'
+alias rr='ranger'
+
+alias sudo-update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
+alias services='sudo systemctl list-unit-files --state=enabled'
+alias hb='sudo systemctl hibernate'
+alias shdn='shutdown now'
+alias rbt='reboot'
+
+alias youtube-dl-audio='youtube-dl -x -f bestaudio'
+alias wttr='curl wttr.in'
 
 #alias cat=ccat
 
@@ -137,6 +175,7 @@ SAVEHIST=1000
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/antz/.zshrc'
 
+setopt interactivecomments
 #setopt menucomplete
 #setopt automenu
 
@@ -167,6 +206,7 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 export FZF_DEFAULT_COMMAND='rg --files --hidden --ignore-file ~/.rgignore'
+export PATH=~/.local/bin:$PATH
 
 
 ##################
@@ -176,6 +216,7 @@ export FZF_DEFAULT_COMMAND='rg --files --hidden --ignore-file ~/.rgignore'
 
 neofetch
 
+source ptSh_set_aliases
 source /home/antz/.config/broot/launcher/bash/br
 source /usr/share/fzf/key-bindings.zsh
 source /usr/share/fzf/completion.zsh
