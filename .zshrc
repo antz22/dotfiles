@@ -70,6 +70,7 @@ PROMPT+="\$vcs_info_msg_0_ "
 ### ALIASES ###
 #################
 
+alias ls='ls --color=auto'
 
 alias cf='cd ~/CP/cforces/easy'
 alias conf='nvim ~/.config/nvim'
@@ -81,13 +82,11 @@ alias stconf='cd ~/suckless/st && nvim ~/suckless/st/config.def.h'
 alias dmenuconf='nvim ~/suckless/dmenu/config.h'
 alias blocksconf='cd ~/suckless/dwmblocks && nvim ~/suckless/dwmblocks/blocks.def.h'
 alias zshrc='nvim ~/.zshrc'
-alias ls='ls --color=auto'
-
-alias mitpy='nvim ~/python/6_0001'
 alias dunstrc='nvim ~/.config/dunst/dunstrc'
 
 alias courses='nvim ~/Documents/vimwiki/Courses.wiki'
 alias notes='nvim ~/Documents/vimwiki/Notes.wiki'
+alias ids='nvim ~/Documents/vimwiki/Ideas.wiki'
 alias vwiki='nvim ~/Documents/vimwiki/index.wiki'
 alias vw='nvim ~/Documents/vimwiki/index.wiki'
 alias github='nvim ~/system/github.txt'
@@ -106,6 +105,16 @@ alias gP='git push'
 alias grv='git remote -v'
 alias gacm='git add --all && git commit -m'
 
+alias hk='heroku'
+alias hklog='heroku logs --tail'
+alias gphm='git push heroku master'
+alias hkscale='heroku ps:scale web=1'
+alias hkunscale='heroku ps:scale web=0'
+alias pmg='python manage.py'
+alias pymigrations='python manage.py makemigrations && python manage.py migrate'
+alias pyserver='python manage.py runserver'
+
+
 alias smi='make && sudo make clean install'
 alias rsmi='rm -rf config.h && make && sudo make clean install'
 alias bsmi='rm -rf blocks.h && make && sudo make clean install'
@@ -120,9 +129,12 @@ alias services='sudo systemctl list-unit-files --state=enabled'
 alias hb='sudo systemctl hibernate'
 alias shdn='shutdown now'
 alias rbt='reboot'
+alias logout='dm-tool switch-to-greeter'
 
 alias youtube-dl-audio='youtube-dl -x -f bestaudio'
 alias wttr='curl wttr.in'
+
+alias set-java='sudo archlinux-java set'
 
 #alias cat=ccat
 
@@ -207,6 +219,14 @@ unset __conda_setup
 
 export FZF_DEFAULT_COMMAND='rg --files --hidden --ignore-file ~/.rgignore'
 export PATH=~/.local/bin:$PATH
+export JAVA_HOME="/usr/lib/jvm/java-8-openjdk"
+export ANDROID_HOME="/home/antz/Android/Sdk"
+export ANDROID_SDK_ROOT="/opt/android-sdk"
+export PATH=$PATH:$JAVA_HOME/bin
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin/
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:$ANDROID_HOME/emulator
 
 
 ##################
