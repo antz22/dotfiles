@@ -136,6 +136,10 @@ alias wttr='curl wttr.in'
 
 alias set-java='sudo archlinux-java set'
 
+alias list-wifis='nmcli device wifi list'
+alias connect-wifi='nmcli device wifi connect'
+
+alias seconds="date +'Time: %H:%M:%S'"
 #alias cat=ccat
 
 
@@ -227,7 +231,7 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin/
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:$ANDROID_HOME/emulator
-
+export PATH="$PATH:/home/antz/bin/flutter/bin"
 
 ##################
 ### ON STARTUP ###
