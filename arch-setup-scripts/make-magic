@@ -9,7 +9,7 @@ reset=`tput sgr0`
 cd ~
 
 echo "${blue}>>> installing git, firefox, nautilus, zsh, alacritty, other packages${reset}"
-sudo pacman -S git firefox nautilus zsh zsh-autosuggestions zsh-syntax-highlighting zsh-completions alacritty fzf ncdu calcurse gtop glances lazygit ncmpcpp ranger nodejs npm broot neofetch mpd rofi dunst picom zathura zathura-pdf-mupdf feh flameshot pulseaudio pulseaudio-alsa pavucontrol redshift mpv python-pip ripgrep
+sudo pacman -S git firefox nautilus zsh zsh-autosuggestions zsh-syntax-highlighting zsh-completions alacritty fzf ncdu calcurse gtop glances lazygit ncmpcpp ranger nodejs npm broot neofetch mpd rofi dunst picom zathura zathura-pdf-mupdf feh flameshot pulseaudio pulseaudio-alsa pavucontrol redshift mpv python-pip ripgrep xclip
 broot
 
 
