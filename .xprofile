@@ -1,0 +1,32 @@
+export _JAVA_AWT_WM_NONREPARENTING=1 
+export AWT_TOOLKIT=MToolkit 
+# Stop screen from going blank
+xset s off
+xset -dpms
+xset s noblank
+# Faster key repeat and delay
+xset r rate 210 40
+
+# Wallpaper
+feh --bg-fill --randomize ~/Pics/wallpapers/select* &
+
+# Save your eyes lol
+redshift &
+
+# Compositor
+picom --config ~/.config/picom/picom.conf & 
+
+# dwm status bar  (uses most recent build)
+dwmblocks &
+
+# screenshots
+flameshot &
+
+# notifications
+dunst &
+
+# widgets
+~/bin/eww daemon &
+
+# wm
+exec dwm 
