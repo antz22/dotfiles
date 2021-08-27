@@ -1,0 +1,117 @@
+red=`tput setaf 1`
+green=`tput setaf 2`
+yellow=`tput setaf 3`
+blue=`tput setaf 4`
+purple=`tput setaf 5`
+cyan=`tput setaf 6`
+reset=`tput sgr0`
+
+cd ~
+
+echo "${blue}>>> installing git, firefox, nautilus, zsh, alacritty, other packages${reset}"
+sudo pacman -S git firefox nautilus zsh zsh-autosuggestions zsh-syntax-highlighting zsh-completions alacritty fzf ncdu calcurse gtop glances lazygit ncmpcpp ranger nodejs npm broot neofetch mpd rofi dunst picom zathura zathura-pdf-mupdf feh flameshot pulseaudio pulseaudio-alsa pavucontrol redshift mpv python-pip ripgrep
+broot
+
+
+echo "${purple}>>> installing yay${reset}"
+
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+
+cd ..
+rm -rf yay
+
+
+echo "${cyan}>>> installing brave, neovim, visual studio code, and more${reset}"
+yay -S neovim-nightly-bin brave-bin hourglass-git tty-clock visual-studio-code-bin redshiftgui-bin consolas-font
+
+
+echo "${red}>>> changing shell to zsh${reset}"
+chsh -s /usr/bin/zsh
+
+
+echo "${yellow}>>> installing ptsh${reset}"
+
+git clone https://github.com/jszczerbinsky/ptSh
+cd ptSh
+make
+
+cd ..
+rm -rf ptSh
+
+
+echo "${blue}>>> configuring neovim${reset}"
+cd .config
+git clone https://github.com/antz22/nvim-config
+mv nvim-config nvim
+
+cd ..
+
+
+echo "${purple}>>> configuring dotfiles${reset}"
+git clone https://github.com/antz22/dotfiles
+mv dotfiles/.zshrc ~/.zshrc
+mv dotfiles/alacritty ~/.config/alacritty
+rm -rf .config/neofetch
+mv dotfiles/neofetch .config/neofetch
+rm -rf .config/i3
+mv dotfiles/i3 .config/i3
+mv dotfiles/ranger .config/ranger
+mv dotfiles/rofi .config/rofi
+mv dotfiles/zathura .config/zathura
+mv dotfiles/picom .config/picom
+mv dotfiles/mpd .config/mpd
+mv dotfiles/ncmpcpp .config/ncmpcpp
+mv dotfiles/dunst .config/dunst
+mv dotfiles/.rgignore ~/.rgignore
+mv dotfiles/.xinitrc ~/.xinitrc
+mv dotfiles/.xprofile ~/.xprofile
+
+mkdir bin
+mv dotfiles/bin/statusbar bin/statusbar
+mv dotfiles/bin/scripts bin/scripts
+cd bin/scripts
+cp -r bluelight.sh ~/.local/bin/bluelight
+chmod +x ~/.local/bin/bluelight
+cd ..
+cd statusbar
+chmod +x battery date disk memory network time updates uptime volume
+cd ..
+cd ..
+
+
+rm -rf dotfiles
+
+
+echo "${red}>>> configuring dwm and st${reset}"
+mkdir suckless
+cd suckless
+git clone https://github.com/antz22/dwm
+cd dwm
+rm -rf config.h && make && sudo make clean install
+cd ..
+
+git clone https://github.com/antz22/st
+cd st
+rm -rf config.h && make && sudo make clean install
+cd ..
+
+
+echo "${red}>>> configuring dwm status bar${reset}"
+
+git clone https://github.com/antz22/suckless
+mv suckless/dwmblocks dwmblocks
+mv suckless/dmenu dmenu
+rm -rf suckless
+cd dwmblocks
+alias bsmi='rm -rf blocks.h && make && sudo make clean install'
+cd ..
+
+cd ..
+
+
+echo "${green}>>> installing nerd-fonts... this will take a while.${reset}"
+yay -S nerd-fonts-complete
+
+echo "${green}>>> success! 1. Reboot (for zsh) 2. Run :PlugInstall in neovim 3. Look at extra packages 4. set up greeter and hibernation"
