@@ -1,6 +1,6 @@
+/** Basic config file **/
+
 configuration {
- modi: "window,drun,combi,run";
- theme: "onedarker";
- font: "Fira Code 15";
- combi-modi: "window,drun,ssh";
+  show-icons:         true;
+  icon-theme:         "Papirus";
 }
